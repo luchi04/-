@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="beans-ethiopia"><title id="beans-ethiopia">beans-ethiopia</title><circle cx="200" cy="205" r="168" fill="#E9E0D4"/><ellipse cx="200" cy="335" rx="120" ry="16" fill="#2A1B12" opacity=".10"/>
+    <path d="M128 124h144l10 196c0 8-6 14-14 14H132c-8 0-14-6-14-14z" fill="#5E7D4F"/>
+    <path d="M128 124h144l-4-24H132z" fill="#000" opacity=".22"/>
+    <path d="M120 100h160" stroke="#000" opacity=".25" stroke-width="6"/>
+    <path d="M232 124h40l10 196c0 8-6 14-14 14h-28c14-60 6-150-8-210z" fill="#000" opacity=".08"/>
+    <rect x="148" y="176" width="104" height="112" rx="14" fill="#FFFDF9"/>
+    <g transform="translate(200 214) rotate(20) scale(0.9)"><ellipse rx="14" ry="20" fill="#6B4226"/><path d="M0-17c-6 8 6 26 0 34" stroke="#2A1B12" stroke-width="3" fill="none" opacity=".55"/></g>
+    <text x="200" y="258" text-anchor="middle" font-family="Arial, sans-serif" font-weight="700" font-size="17" fill="#2A1B12">ЭФИОПИЯ</text>
+    <text x="200" y="278" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#6B4226">ягоды · цветы</text></svg>

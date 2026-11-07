@@ -1,0 +1,10 @@
+.env
+.env.*
+!.env.example
+# материалы преподавателя и служебное — не публикуем
+tools/
+stages/
+marathon/
+shots/
+TEACHER.md
+*.zip

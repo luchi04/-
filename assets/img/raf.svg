@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="raf"><title id="raf">raf</title><circle cx="200" cy="205" r="168" fill="#F4D9B8"/><ellipse cx="200" cy="335" rx="120" ry="16" fill="#2A1B12" opacity=".10"/>
+    <path d="M138 120h124l-16 200c-1 8-7 12-14 12h-64c-7 0-13-4-14-12z" fill="#FFFDF9"/>
+    <path d="M222 120h40l-16 200c-1 8-7 12-14 12h-20c18-20 26-120 10-212z" fill="#000" opacity=".06"/>
+    <path d="M144 190h112l-6 78H150z" fill="#D08A3E"/>
+    <path d="M150 268h100" stroke="#000" opacity=".12" stroke-width="3"/>
+    <text x="200" y="238" text-anchor="middle" font-family="Arial, sans-serif" font-weight="800" font-size="26" fill="#FFFDF9">RAF</text>
+    <rect x="126" y="100" width="148" height="26" rx="10" fill="#3A2418"/>
+    <path d="M144 100c4-18 24-26 56-26s52 8 56 26z" fill="#3A2418"/>
+    <rect x="186" y="78" width="28" height="8" rx="4" fill="#000" opacity=".25"/></svg>

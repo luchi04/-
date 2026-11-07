@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="cheesecake"><title id="cheesecake">cheesecake</title><circle cx="200" cy="205" r="168" fill="#F4DCE0"/><ellipse cx="200" cy="335" rx="120" ry="16" fill="#2A1B12" opacity=".10"/>
+  <path d="M96 236l200-70v104l-200 56z" fill="#F6E7C8"/>
+  <path d="M96 236l200-70 30 20-200 72z" fill="#FFF4DD"/>
+  <path d="M96 236l30 22v80l-30-14z" fill="#EAD5AE"/>
+  <path d="M96 314l200-56v24l-200 56z" fill="#B97A3C"/>
+  <path d="M126 338l200-56v-16l-200 54z" fill="#9C6430"/>
+  <path d="M100 232l196-68 30 20-196 70z" fill="#B5485D"/>
+  <circle cx="206" cy="196" r="13" fill="#C9506A"/><circle cx="248" cy="186" r="11" fill="#9E3550"/><circle cx="166" cy="212" r="10" fill="#C9506A"/>
+  <path d="M206 183c4-10 12-12 18-10" stroke="#5E7D4F" stroke-width="5" fill="none" stroke-linecap="round"/></svg>

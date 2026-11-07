@@ -1,0 +1,280 @@
+/* ═══ ЭТАП 1 · ОСНОВА: цвета, шрифты, контейнер ═══ */
+:root {
+  --cream: #f7f1e8;
+  --paper: #fffdf9;
+  --espresso: #2a1b12;
+  --roast: #6b4226;
+  --caramel: #d08a3e;
+  --caramel-dark: #b06f28;
+  --muted: #8a7563;
+  --line: #eadfd1;
+  --green: #4f7a3f;
+  --red: #c0392b;
+  --radius: 22px;
+  --shadow: 0 18px 40px -22px rgba(42, 27, 18, 0.45);
+  --font-head: "Unbounded", system-ui, sans-serif;
+  --font-body: "Manrope", system-ui, sans-serif;
+}
+
+/* ↓ Дальше — ваши стили по шагам MARATHON.md */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--espresso);
+  background: var(--cream);
+}
+
+body.is-locked {
+  overflow: hidden;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  width: min(1180px, 100% - 40px);
+  margin-inline: auto;
+}
+
+.section-title {
+  margin: 0;
+  font-family: var(--font-head);
+  font-size: clamp(28px, 4vw, 40px);
+  line-height: 1.1;
+}
+
+/* кнопки - общий блок */
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 26px;
+  border: 2px solid var(--espresso);
+  border-radius: 999px;
+  background: var(--espresso);
+  color: var(--paper);
+  font: 700 16px var(--font-body);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s, color 0.2s, box-shadow 0.2s;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.button:active {
+  transform: translateY(0);
+}
+
+.button:disabled {
+  opacity: 0.6;
+  cursor: wait;
+  transform: none;
+}
+
+.button--ghost {
+  background: transparent;
+  color: var(--espresso);
+}
+
+.button--ghost:hover {
+  background: var(--espresso);
+  color: var(--paper);
+}
+
+.button--wide {
+  width: 100%;
+}
+
+/* Этап 1 - ШАПКА */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10px;
+  background: rgba(247, 241, 232, 0.85);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+
+.header__inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  height: 72px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.logo__icon {
+  width: 36px;
+  height: 36px;
+}
+
+.logo__text {
+  font: 700 22px var(--font-head);
+  letter-spacing: -0.02em;
+}
+
+.nav {
+  display: flex;
+  gap: 28px;
+  margin-right: auto;
+}
+
+.nav__link {
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--roast);
+  transition: color 0.2s;
+}
+
+.nav__link:hover {
+  color: var(--caramel-dark);
+}
+
+.cart-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--espresso);
+  color: var(--paper);
+  font: 700 15px var(--font-body);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cart-button:hover {
+  transform: translateY(-2px);
+}
+
+.cart-button__icon {
+  width: 22px;
+  height: 22px;
+}
+
+.cart-button__count {
+  display: grid;
+  place-items: center;
+  min-width: 24px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--caramel);
+  font-size: 13px;
+}
+
+.cart-button.is-bump .cart-button__count {
+  animation: bump 0.4s;
+}
+
+@keyframes bump {
+  50% { transform: scale(1.35); }
+}
+
+/* Этап 1 - ПЕРВЫЙ ЭКРАН */
+.hero {
+  padding: 56px 0 72px;
+}
+
+.hero__inner {
+  display: grid;
+  grid-template-columns: 1.05fr 1fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero__badge {
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: var(--paper);
+  font-weight: 700;
+  color: var(--roast);
+  box-shadow: 0 6px 18px -12px rgba(42, 27, 18, 0.5);
+}
+
+.hero__title {
+  margin: 0;
+  font-family: var(--font-head);
+  font-size: clamp(36px, 5.6vw, 66px);
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+}
+
+.hero__accent {
+  display: block;
+  color: var(--caramel);
+}
+
+.hero__lead {
+  max-width: 460px;
+  margin: 22px 0 30px;
+  font-size: 19px;
+  color: var(--roast);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero__facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+  margin: 40px 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+}
+
+.hero__fact b {
+  display: block;
+  font: 700 22px var(--font-head);
+  color: var(--espresso);
+}
+
+.hero__art {
+  width: 100%;
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  50% { transform: translateY(-12px); }
+}

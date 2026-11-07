@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zerno — кофе без очереди</title>
+  <meta name="description" content="Кофейня Zerno: соберите заказ на сайте и заберите без очереди за 10 минут.">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- ЭТАП 1 · шапка (header) и первый экран (main > section.hero) — по MARATHON.md -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#top" class="logo">
+        <img src="./assets/img/logo.svg" alt="" class="logo__icon">
+        <span class="logo__text">Zerno</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#menu" class="nav__link">Меню</a>
+        <a href="#how" class="nav__link">Как заказать</a>
+        <a href="#contacts" class="nav__link">Контакты</a>
+      </nav>
+
+      <button class="cart-button" type="button" aria-label="Открыть корзину">
+        <img src="./assets/img/icon-bag.svg" alt="" class="cart-button__icon">
+        <span class="cart-button__text">Корзин</span>
+        <span class="cart-button__count">0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ЭТАП 1 - ПЕРВЫЙ ЭКРАН -->
+    <section class="hero" id="top">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <p class="hero__badge">
+            ☕ Кофейня в центре Бишкека
+          </p>
+
+          <h1 class="hero__title">
+            Кофе без очереди <span class="hero__accent">за 10 минут</span>
+          </h1>
+
+          <p class="hero__lead">
+            Соберите заказ на сайте — мы приготовим его к вашему приходу. Оплата при получении.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#menu" class="button">Смотреть меню</a>
+            <a href="#how" class="button button--ghost">Как это работает</a>
+          </div>
+
+          <ul class="hero__facts">
+            <li class="hero__fact"><b>10 мин</b> готовим заказ</li>
+            <li class="hero__fact"><b>4.9 ★</b> отзывы гостей</li>
+            <li class="hero__fact"><b>с 8:00</b> каждый день</li>
+          </ul>
+        </div>
+
+        <img src="./assets/img/hero.svg" alt="Капучино, кофе с собой и круассан" class="hero__art">
+      </div>
+    </section>
+  </main>
+  <!-- ЭТАП 2 · меню, «как заказать», подвал -->
+  <!-- ЭТАП 3 · корзина (aside.cart), затемнение, всплывающее сообщение -->
+
+  <script type="module" src="js/app.js"></script>
+</body>
+
+</html>

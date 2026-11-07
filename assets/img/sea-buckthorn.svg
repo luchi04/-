@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="sea-buckthorn"><title id="sea-buckthorn">sea-buckthorn</title><circle cx="200" cy="205" r="168" fill="#F8DFC2"/><ellipse cx="200" cy="335" rx="120" ry="16" fill="#2A1B12" opacity=".10"/>
+    
+    <path d="M132 112H268L254 322c0 8-6 12-14 12H160c-8 0-14-4-14-12z" fill="#fff" opacity=".35"/>
+    <path d="M140 191.8H260L254 322H146z" fill="#E8892B"/><path d="M140 158.20000000000002H260L254 191.8H146z" fill="#F2A54A"/><circle cx="170" cy="136" r="9" fill="#F28C1E"/><circle cx="196" cy="128" r="9" fill="#F28C1E"/><circle cx="222" cy="140" r="9" fill="#F28C1E"/><path d="M186 120c10-14 26-16 36-10" stroke="#5E7D4F" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M132 112H268L254 322c0 8-6 12-14 12H160c-8 0-14-4-14-12z" fill="none" stroke="#fff" stroke-width="6" opacity=".9"/>
+    <path d="M148 132l8 170" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".45"/></svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="iced-latte"><title id="iced-latte">iced-latte</title><circle cx="200" cy="205" r="168" fill="#DCE8EE"/><ellipse cx="200" cy="335" rx="120" ry="16" fill="#2A1B12" opacity=".10"/>
+    <path d="M232 60l-22 200" stroke="#2A1B12" stroke-width="12" stroke-linecap="round"/>
+    <path d="M132 112H268L254 322c0 8-6 12-14 12H160c-8 0-14-4-14-12z" fill="#fff" opacity=".35"/>
+    <path d="M140 284.2H260L254 322H146z" fill="#3A2418"/><path d="M140 221.2H260L254 284.2H146z" fill="#C98B4F"/><path d="M140 137.2H260L254 221.2H146z" fill="#F3E6D3"/><rect x="160" y="160" width="34" height="30" rx="7" fill="#fff" opacity=".55" transform="rotate(0 177 175)"/><rect x="206" y="150" width="34" height="30" rx="7" fill="#fff" opacity=".55" transform="rotate(8 223 165)"/><rect x="182" y="190" width="34" height="30" rx="7" fill="#fff" opacity=".55" transform="rotate(8 199 205)"/><rect x="226" y="186" width="34" height="30" rx="7" fill="#fff" opacity=".55" transform="rotate(0 243 201)"/>
+    <path d="M132 112H268L254 322c0 8-6 12-14 12H160c-8 0-14-4-14-12z" fill="none" stroke="#fff" stroke-width="6" opacity=".9"/>
+    <path d="M148 132l8 170" stroke="#fff" stroke-width="8" stroke-linecap="round" opacity=".45"/></svg>
